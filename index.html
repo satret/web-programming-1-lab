@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css"
+          href="Style.css">
+    <title>Stepanov Artur</title>
+    </style>
+</head>
+<body>
+<nav class="fixed-nav-bar">
+    <a style="font-family:serif;color:red">Stepanov Artur P32131</a>
+    <a class="option" style="font-family:serif;color:red"> Вариант 1221</a>
+</nav>
+<div class="coordinates">
+    <p class = "text"><b>Выберите координаты все три переменные</b></p>
+    <p>Выберите значение X:</p>
+    <select id="x" name="x">
+        <option value="-3">-3</option>
+        <option value="-2">-2</option>
+        <option value="-1">-1</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <p>Выберите значение Y:</p>
+    <input id="y" name="y" type="text" value="">
+
+    <p>Выберите значение R:</p>
+    <input id="r1" name="r" type="radio" value="1"> 1
+    <input id="r2" name="r" type="radio" value="2"> 2
+    <input id="r3" name="r" type="radio" value="3"> 3
+    <input id="r4" name="r" type="radio" value="4"> 4
+    <input id="r5" name="r" type="radio" value="5"> 5
+
+    <p ><input id="button" type="submit" value="Выбрать"></p>
+</div>
+<div class = "errors" id = "errors"></div>
+<div class="graphic"><img src="sao.jpg" alt="График"></div>
+<div class = "anstable">
+    <table class = "table" id="result-table">
+        <tr class="table-header">
+            <th class="coords-col" >X</th>
+            <th class="coords-col">Y</th>
+            <th class="coords-col">R</th>
+            <th class="time-col">Результат</th>
+            <th class="time-col">Время исполнения</th>
+            <th class="hitres-col">Попадание</th>
+        </tr>
+    </table>
+    <table class = "table" id="result-table1">
+        <tr class="table-header">
+            <th class="coords-col" ></th>
+        </tr>
+    </table>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="updatetable.js"></script>
+</body>
+</html>

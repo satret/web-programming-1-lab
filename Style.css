@@ -1,0 +1,71 @@
+.coordinates {
+    background-color: #d67bff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 4px solid #ccffbc;
+    width: 250px;
+    margin: auto;
+}
+.coordinates > p{
+    color: yellow;
+}
+.text{
+    color: blue;
+}
+.sao {
+    background-color: #a0d1ff;
+    border-radius: 20px;
+    padding: 15px 30px;
+    border: 4px solid #cb0000;
+    width: 250px;
+    margin: auto;
+}
+
+.fixed-nav-bar {
+    font-size: 40px;
+    background-color: #ffffff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+    background-color: #ffdefa;
+    text-color: #a0d1ff;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.option {
+    float: right;
+    margin: auto;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.graphic{
+    text-align: center;
+}
+.hidden{
+    overflow: hidden;
+    text-color: #a0d1ff;
+}
+.errors{
+    text-align: center
+}
+.coordinates.article > p{
+    color: yellow;
+}
